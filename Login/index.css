@@ -1,0 +1,108 @@
+body {
+  background-color: #243682;
+}
+.bg-no-overlay {
+  /* background: url("../Assets/sample_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 710px; */
+  background: transparent url("../Assets/sample_img@2x.png") 0% 0% no-repeat
+    padding-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 1;
+  height: 710px;
+
+  z-index: 100; /* Behind the navbar */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.classcard {
+  width: 430px;
+  margin-top: 140px;
+  height: 264px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+}
+.d1 {
+  height: 32px;
+  background: transparent url("/Assets/Group\ 1292.svg") 0% 0% no-repeat;
+  opacity: 1;
+}
+.d2 {
+  margin-left: 38px;
+  margin-top: 2px;
+text-align: center;
+font: normal normal bold 16px Open Sans;
+letter-spacing: 0px;
+color: #DAE1FF;
+opacity: 1;
+}
+.d3{
+text-align: center;
+width: 370px;
+font: normal normal normal 12px Open Sans;
+letter-spacing: 0px;
+color: #DAE1FF;
+opacity: 1;
+}
+.d6{
+  background: #6F7AA6 0% 0% no-repeat padding-box;
+border: 1px solid #FFFFFF;
+border-radius: 23px;
+opacity: 1;
+width: 202px;
+height: 36px;
+}
+.d7{
+  text-align: center;
+font: normal normal 600 12px Open Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.country {
+  font: normal normal 600 14px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding-left: 48px;
+  height: 24px;
+}
+
+.tit1 {
+  margin-top: 12px;
+  width: 0px;
+  height: 33px;
+  border-left: 3px solid #fff;
+  opacity: 1;
+}
+.tit2 {
+  height: 30px;
+  margin-left: 5px;
+  margin-top: 20px;
+  font-size: medium;
+  color: #fff;
+  opacity: 1;
+}
+.hm {
+  font: normal normal 600 20px Open Sans;
+  letter-spacing: 0px;
+  color: #fff;
+}
+.s1 {
+  width: 40px;
+  height: 35px;
+  background: transparent url("/Assets/Group\ 1248.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+.tit {
+  height: 53px;
+  font: normal normal 600 26px Poppins;
+  letter-spacing: 2.01px;
+  color: #fff;
+  opacity: 1;
+}
